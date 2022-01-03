@@ -56,7 +56,7 @@ export default function Slider() {
 							onClick={() => navigate(`/category/${data.type}/${id}`)}>
 							<div
 								style={{
-									background: `url(${data.imgUrls[0]}) center no-repeat`,
+									background: `url(${data.imgUrls}) center no-repeat`,
 									backgroundSize: 'cover',
 								}}
 								className='swiperSlideDiv'>

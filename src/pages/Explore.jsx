@@ -13,6 +13,7 @@ export default function Explore() {
 
 			<main>
 				<Slider />
+
 				<p className='exploreCategoryHeading'>Categories</p>
 				<div className='exploreCategories'>
 					<Link to='/category/rent'>
